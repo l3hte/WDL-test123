@@ -1,4 +1,3 @@
-version 1.0
 workflow HelloInput {
   input {
     String name_input
