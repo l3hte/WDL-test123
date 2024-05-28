@@ -1,7 +1,6 @@
-version: 1.0
-workflows:
- - subclass: WDL
- primaryDescriptorPath: /hello_input_wdl_example.wdl
- testParameterFiles:
-  - /optional.json
-          
+  version: 1.2
+    workflows:
+        - subclass: WDL
+          primaryDescriptorPath: /hello_input_wdl_example.wdl
+          testParameterFiles: /optional.json
+        
