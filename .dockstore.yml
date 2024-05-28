@@ -1,3 +1,8 @@
 version: 1.0
 workflows:
  - subclass: WDL
+ primaryDescriptorPath: /hello_input_wdl_example.wdl  # absolute path
+ readMePath: /README.md # absolute path
+ authors:
+  - name: LT
+  email: abc@abc.com
